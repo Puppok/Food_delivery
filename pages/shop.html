@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Food Delivery</title>
+
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+    <div class="background">
+        <img src="../assets/background.png" alt="">
+    </div>
+
+    <header class="header">
+        <h1>Food Delivery</h1>
+
+        <nav class="nav">
+            <a href="main.html">Главная</a>
+            <a href="shop.html">Магазин</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="">Регистрация</a>
+        </nav>
+    </header>
+
+    <div class="cart-button" aria-label="Корзина" aria-expanded="false" aria-controls="cart">
+        <img src="../assets/cart.png">
+    </div>
+
+    <main class="main-shop"></main>
+
+    <aside class="cart" id="cart" aria-labelledby="cart-title" inert>
+        <button class="cart-close" aria-label="Закрыть корзину">X</button>
+        <h3 id="cart-title">Корзина</h3>
+        <ul class="cart-content"></ul>
+        <p class="cart-total" aria-live="polite"></p>
+    </aside>
+
+    <script src='../script.js'></script>
+</body>
+</html>

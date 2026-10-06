@@ -352,3 +352,70 @@ body {
     font-size: 26px;
     text-align: center;
 }
+
+.auth {
+    height: 700px;
+    width: 1000px;
+    background-color: #2d2d2d;
+    opacity: 0.9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+.auth h1 {
+    font-size: 70px;
+    color: #F5F5F5;
+}
+
+.auth-form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.auth-form label {
+    color: #cecece;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.auth-form input {
+    height: 50px;
+    background-color: #434343;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 0 15px;
+    color: #f5F5F5;
+    font-size: 22px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.auth-form input:focus {
+    border-color: #777;
+    background-color: #515151;
+}
+
+.auth-form input[type='submit'] {
+    align-self: center;
+    width: fit-content;
+    margin-top: 15px;
+    padding: 5px 20px;
+    background-color: #777;
+    border: none;
+    border-radius: 5px;
+    color: #f5F5F5;
+    font-size: 30px;
+    cursor: pointer;
+}
